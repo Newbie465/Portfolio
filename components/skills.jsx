@@ -24,12 +24,12 @@ const Skills = () => {
   }, []);
 
   return (
-    <section id='skills' className=''>
+    <section id='skills' className='p-5'>
     <div className='min-h-[80vh] mx-auto max-w-7xl flex flex-col items-center pt-4 justify-center'>  
       <h2 className="md:text-[2.75rem] font-extrabold text-white text-center uppercase text-[2rem]">Skills & <span className='text-light-blue'>Experiences</span></h2>
 
       <div className="flex md:flex-row flex-col justify-center items-center min-h-[40vh] max-w-[800px]">
-        <motion.div className="flex flex-1 flex-wrap md:justify-start md:items-start md:mr-5 mr-0 justify-center items-center">
+        <motion.div className="flex flex-1 flex-wrap md:justify-start md:items-start sm:mr-5 mr-0 justify-center items-center mb-5">
           {skills.map((skill) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}

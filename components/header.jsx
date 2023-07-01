@@ -61,14 +61,11 @@ export default function Header(){
                         whileInView={{y : [50, 0], opacity : [0, 1]}}
                         transition={{duration: 1.3}} 
                         className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                            <a href='#'>
+                            <a href='https://github.com/Newbie465'>
                                 <FaGithub className='lg:w-8'/>
                             </a>
-                            <a href='#'>
+                            <a href='https://linkedin.com/in/chirag-bhatnagar-435a621b0'>
                                 <FaLinkedin/>
-                            </a>
-                            <a href='#'>
-                                <FaYoutube/>
                             </a>
                         </motion.div>
                     </div>
