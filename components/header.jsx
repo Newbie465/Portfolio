@@ -51,7 +51,7 @@ export default function Header(){
                         transition={{duration: 1.1}}
                         className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                             <a
-                            href="https://newbie465.github.io/Resume/Chirag_Bhatnagar_Resume.pdf"
+                            href="https://docs.google.com/viewer?url=https://newbie465.github.io/Resume/Chirag_Bhatnagar_Resume.pdf&embedded=true"
                             className="mx-1 block rounded-full px-3 py-2 text-base font-semibold leading-7 text-white bg-light-blue hover:bg-blue-950"
                             >
                                 Resume
