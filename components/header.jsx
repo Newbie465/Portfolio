@@ -9,7 +9,7 @@ import { fadeIn } from '@/utils/variants';
 
 export default function Header(){
     return (
-        <section className="bg-slate-800 px-2 min-h-[80vh] flex items-center justify-center">
+        <section className="bg-slate-800 px-2 min-h-[80vh] flex items-center justify-center p-5">
             <div className='container mx-auto max-w-7xl flex justify-center items-center'>
                 <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
                     <div className='text-white flex-1 text-center font-secondary lg:text-left'>
@@ -51,7 +51,7 @@ export default function Header(){
                         transition={{duration: 1.1}}
                         className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                             <a
-                            href="#"
+                            href="https://newbie465.github.io/Resume/Chirag_Bhatnagar_Resume.pdf"
                             className="mx-1 block rounded-full px-3 py-2 text-base font-semibold leading-7 text-white bg-light-blue hover:bg-blue-950"
                             >
                                 Resume
